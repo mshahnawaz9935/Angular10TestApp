@@ -1,0 +1,18 @@
+.dashboard_link {
+    color: #8a95a0;
+    font-size:13px;
+    text-decoration: none;
+}
+.card_text_header {
+    padding-top: 11%;
+    font-size: 12px;  font-weight: 600;  font-style: normal;
+     font-stretch: normal;line-height: normal; letter-spacing: 1px;
+      color : #8a95a0;
+
+}
+.animaldata_left {
+    border-bottom: 1px solid #ebf0f4;
+    height: 25px;
+    margin-left: 0%;
+    margin-right:-1px;
+}

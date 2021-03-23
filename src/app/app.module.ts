@@ -12,6 +12,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DxDataGridModule } from 'devextreme-angular';
+import { DxListModule } from 'devextreme-angular';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { DxDataGridModule } from 'devextreme-angular';
     DxDataGridModule,
     MatCardModule,
     MatButtonModule,
+    DxListModule,
     RouterModule.forRoot([
       { path: 'users', component: UsersComponent },
       { path: '', component: HomeComponent },

@@ -1,5 +1,113 @@
 
-<dx-data-grid id="gridContainer"
-    [dataSource]="values"
-    [showBorders]="true">
-</dx-data-grid>
+<div class="container-fluid" style="padding:2%;">
+<div class="row">
+    <div class="col-8" >
+            <div class="card-header">
+                    <h5>Users</h5>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Details</h5>
+                    <dx-data-grid   #grid id="gridContainer" style="padding:2%;height:60vh"
+                    [dataSource]="values"
+                    [columnAutoWidth]="true"
+                    [hoverStateEnabled]="true"
+                    [showBorders]="true"  [selectedRowKeys]="[]">
+                    <dxo-selection mode="single"></dxo-selection>
+                    <dxi-column caption="Cow Id" dataField="cow_id" alignment="center"></dxi-column>
+                    <dxi-column caption="Last Heat" dataField="last_heat" alignment="center" dataType="datetime" ></dxi-column>
+                    <dxi-column caption="Tag No" dataField="rf_id" alignment="center"></dxi-column>
+                    <dxi-column caption="Last Calved" dataField="last_calved" alignment="center" dataType="datetime"></dxi-column>
+                    <dxi-column caption="DOB" dataField="dob" alignment="center" dataType="datetime"></dxi-column>
+                </dx-data-grid>
+                  </div>
+                </div>
+
+    <div class="col-4"><div class="card">
+        <div class="card-header">
+          More Details
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Info</h5>
+          <div id="employeeInfo" *ngIf="grid.selectedRowKeys.length">
+       
+               <div class="row card_text_header" style="padding-top: 5%;">
+                    <div class="col-12">
+                        <div class="row animaldata_left">
+                            <div class="col-sm-6">
+                                <a class="dashboard_link" href="#" style="margin-left:-13px">
+                                    Cow Id
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div style="text-align:right;color :#0060b2;font-weight:bold;font-stretch:normal; letter-spacing: 1.33px;font-size: 15px ">{{grid.instance.getSelectedRowsData()[0].cow_id}}</div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12" style="padding-top: 3%;">
+
+                        <div class="row animaldata_left">
+                            <div class="col-6">
+                                <a class="dashboard_link" href="#" style="margin-left:-13px">
+                                    DOB
+                                </a>
+                            </div>
+                            <div class="col-6">
+                                <div  style="text-align:right;color :#0060b2;font-weight:700; letter-spacing: 0.5px;font-size: 15px ">{{grid.instance.getSelectedRowsData()[0].dob | date:'dd/MM/yy hh:mm:yy'}} </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 3%;">
+
+                            <div class="row animaldata_left">
+                                <div class="col-6">
+                                    <a class="dashboard_link" href="#" style="margin-left:-13px">
+                                       DIM
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div  style="text-align:right;color :#0060b2;font-weight:700; letter-spacing: 0.5px;font-size: 15px ">{{grid.instance.getSelectedRowsData()[0].dim}} </div>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12" style="padding-top: 3%;">
+
+                                <div class="row animaldata_left">
+                                    <div class="col-6">
+                                        <a class="dashboard_link" href="#" style="margin-left:-13px">
+                                            Tag No
+                                        </a>
+                                    </div>
+                                    <div class="col-6">
+                                        <div  style="text-align:right;color :#0060b2;font-weight:700; letter-spacing: 0.5px;font-size: 15px ">{{grid.instance.getSelectedRowsData()[0].rf_id}} </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12" style="padding-top: 3%;">
+
+                                    <div class="row animaldata_left">
+                                        <div class="col-6">
+                                            <a class="dashboard_link" href="#" style="margin-left:-13px">
+                                                Last Heat
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <div  style="text-align:right;color :#0060b2;font-weight:700; letter-spacing: 0.5px;font-size: 15px ">{{grid.instance.getSelectedRowsData()[0].last_heat | date:'dd/MM/yy hh:mm:yy'}} </div>
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+
+                </div>
+                
+            </div>
+        </div></div>
+</div>
+
+
+</div>
+</div>
