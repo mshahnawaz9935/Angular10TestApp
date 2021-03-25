@@ -1,48 +1,24 @@
 
 <div class="container">
-    <div class="row" style="padding-top:5%">
-        <div class="col-8">
-            <mat-card class="example-card">
-                <mat-card-header>
-                  <div mat-card-avatar class="example-header-image"></div>
-                  <mat-card-title>Users</mat-card-title>
-                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-                </mat-card-header>
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-                <mat-card-content>
-                  <p>
-                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                    bred for hunting.
-                  </p>
-                </mat-card-content>
-                <mat-card-actions>
-                  <button mat-button>LIKE</button>
-                  <button mat-button>SHARE</button>
-                </mat-card-actions>
-              </mat-card>
-        </div>
-        <div class="col-4">
-            <mat-card class="example-card">
-                <mat-card-header>
-                  <div mat-card-avatar class="example-header-image"></div>
-                  <mat-card-title>Users</mat-card-title>
-                  <mat-card-subtitle>Dog Breed</mat-card-subtitle>
-                </mat-card-header>
-                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
-                <mat-card-content>
-                  <p>
-                    The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                    A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                    bred for hunting.
-                  </p>
-                </mat-card-content>
-                <mat-card-actions>
-                  <button mat-button>LIKE</button>
-                  <button mat-button>SHARE</button>
-                </mat-card-actions>
-              </mat-card>
+  <div class="row">
+    <div class="col-10">
+        <div class="row" style="padding-top:5%" >
+            <div class="col-4" *ngFor="let item of values; let i = index">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="{{item.Image}}" height = "200" width="20" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">{{item.name}}</p>
+                </div>
+              </div>
+            </div>
+        
         </div>
     </div>
+    <div class="col-2" style="padding-top:5%" >
+        <button  type="button" class="btn btn-primary" (click)="openDialog()">Open dialog</button><br/>
+        <button type="button" class="btn btn-secondary" >Delete</button><br/>
+        <button type="button" class="btn btn-success">Update</button><br/>
+      </div>
+  </div>
+ 
 </div>
-
