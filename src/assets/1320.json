@@ -1,0 +1,272 @@
+{
+  "milkingStatsText": [
+    {
+      "tenant_id": 1320,
+      "rec_date": "2020-11-25T00:00:00",
+      "period_id": "f891e139-853e-0c1c-ce29-b906dfad9ce0",
+      "name": "AM",
+      "parlour_id": 0,
+      "total_yield": 17617.80078125,
+      "total_diverted": 0.0,
+      "milking_time": 21074,
+      "total_feed1": 415.5,
+      "total_feed2": 0.0,
+      "total_feed3": 0.0,
+      "total_feed4": 0.0,
+      "avg_yield": 0.0,
+      "avg_milking_speed": 0,
+      "cows_entered": 1648,
+      "cows_recorded": 0,
+      "cows_through_draft": 0,
+      "drafted_to_pin1": 0,
+      "drafted_to_pin2": 0,
+      "start_time": "2020-11-25T03:29:34",
+      "end_time": "2020-11-25T09:20:48",
+      "avg_milking_time": 21297,
+      "avg_dim": 411,
+      "avg_total_yield": 17122.71,
+      "avg_total_feed": 416.89
+    },
+    {
+      "tenant_id": 1320,
+      "rec_date": "2020-11-25T00:00:00",
+      "period_id": "f891e139-3c95-46d1-bdde-27f41101eab8",
+      "name": "PM",
+      "parlour_id": 0,
+      "total_yield": 13781.599609375,
+      "total_diverted": 0.0,
+      "milking_time": 20588,
+      "total_feed1": 412.0,
+      "total_feed2": 0.0,
+      "total_feed3": 0.0,
+      "total_feed4": 0.0,
+      "avg_yield": 0.0,
+      "avg_milking_speed": 0,
+      "cows_entered": 1636,
+      "cows_recorded": 0,
+      "cows_through_draft": 0,
+      "drafted_to_pin1": 0,
+      "drafted_to_pin2": 0,
+      "start_time": "2020-11-25T11:17:28",
+      "end_time": "2020-11-25T17:00:37",
+      "avg_milking_time": 20717,
+      "avg_dim": 411,
+      "avg_total_yield": 15071.69,
+      "avg_total_feed": 415.75
+    }
+  ],
+  "TwentyFourMonths": [
+    {
+      "month": "2021-01-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 0.0,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-11-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 792467.4,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-10-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 962410.91,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-09-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 925087.84,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-08-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 996725.3,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-07-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 960603.74,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-06-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 713255.8,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-05-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 862110.38,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-04-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 979013.28,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-03-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 876135.49,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-02-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 841918.3,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2020-01-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 855829.3,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-12-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 0.0,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-11-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 803326.82,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-10-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 938495.6,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-09-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 850722.62,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-08-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 1022523.2,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-07-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 1027965.3,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-06-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 989797.9,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-05-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 939930.9,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    },
+    {
+      "month": "2019-04-01T00:00:00",
+      "tenant_id": 1320,
+      "total_yield": 1007328.9,
+      "total_yield_first_lactation": 0.0,
+      "lact_cows_perc": 0.0,
+      "energy_corrected_milk": 0.0,
+      "fat_corrected_milk": 0.0,
+      "milk_solids": 0.0
+    }
+  ],
+  "alertCounts": null,
+  "eventCounts": null
+}

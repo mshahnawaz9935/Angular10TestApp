@@ -12,16 +12,12 @@ export class HomeComponent implements OnInit {
 
   values:any = [];
 
-
-
   constructor(private http: HttpClient) {
     var p =   this.getConfig().subscribe(data=>{ 
       console.log(data);
       this.values = data;
     }
     );
-
-
    }
 
 

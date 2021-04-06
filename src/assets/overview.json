@@ -1,0 +1,58 @@
+[
+  {
+    "animalCategory": {
+      "animal_category_id": 0,
+      "animal_category_name": "All",
+      "is_active": true
+    },
+    "count": 1367
+  },
+  {
+    "animalCategory": {
+      "animal_category_id": 1,
+      "animal_category_name": "Calves",
+      "is_active": true
+    },
+    "count": 418
+  },
+  {
+    "animalCategory": {
+      "animal_category_id": 2,
+      "animal_category_name": "Young_Stock",
+      "is_active": true
+    },
+    "count": 28
+  },
+  {
+    "animalCategory": {
+      "animal_category_id": 3,
+      "animal_category_name": "Heifers",
+      "is_active": true
+    },
+    "count": 363
+  },
+  {
+    "animalCategory": {
+      "animal_category_id": 4,
+      "animal_category_name": "Cows",
+      "is_active": true
+    },
+    "count": 430
+  },
+  {
+    "animalCategory": {
+      "animal_category_id": 5,
+      "animal_category_name": "First Lactations",
+      "is_active": true
+    },
+    "count": 128
+  },
+  {
+    "animalCategory": {
+      "animal_category_id": 6,
+      "animal_category_name": "Unknown",
+      "is_active": true
+    },
+    "count": 0
+  }
+]

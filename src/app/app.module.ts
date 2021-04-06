@@ -14,18 +14,28 @@ import { HttpClientModule } from '@angular/common/http';
 import { DxDataGridModule } from 'devextreme-angular';
 import { DxListModule } from 'devextreme-angular';
 import {MatDialogModule} from '@angular/material/dialog';
+import { AddComponent } from './add/add.component';
+import { EditComponent } from './edit/edit.component';
+import { FormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
-    HomeComponent
+    HomeComponent,
+    AddComponent,
+    EditComponent,
+    DashboardComponent
   ],
   imports: [
+    ChartModule,
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
     MatToolbarModule,
     MatIconModule,
     DxDataGridModule,
@@ -36,6 +46,7 @@ import {MatDialogModule} from '@angular/material/dialog';
     RouterModule.forRoot([
       { path: 'users', component: UsersComponent },
       { path: '', component: HomeComponent },
+      { path: 'dashboard', component: DashboardComponent },
     ])
   ],
   providers: [],

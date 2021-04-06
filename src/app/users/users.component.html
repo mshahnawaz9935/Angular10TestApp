@@ -1,24 +1,23 @@
 
 <div class="container">
-  <div class="row">
-    <div class="col-10">
+  
         <div class="row" style="padding-top:5%" >
             <div class="col-4" *ngFor="let item of values; let i = index">
               <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="{{item.Image}}" height = "200" width="20" alt="Card image cap">
+              
                 <div class="card-body">
                   <p class="card-text">{{item.name}}</p>
+                  <p class="card-text">{{item.phone}}</p>
+                  <p class="card-text">{{item.id}}</p>
+                  <p class="card-text">{{item.address}}</p>
+                  <button  type="button" class="btn btn-primary" (click)="openDialog('add')">Add</button><br/>
+                  <button type="button" class="btn btn-secondary" (click)="openDialog('edit')">Edit</button><br/>
+                  <button type="button" class="btn btn-success">Delete</button>
                 </div>
               </div>
             </div>
         
         </div>
-    </div>
-    <div class="col-2" style="padding-top:5%" >
-        <button  type="button" class="btn btn-primary" (click)="openDialog()">Open dialog</button><br/>
-        <button type="button" class="btn btn-secondary" >Delete</button><br/>
-        <button type="button" class="btn btn-success">Update</button><br/>
-      </div>
-  </div>
+  
  
 </div>
