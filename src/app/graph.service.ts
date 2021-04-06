@@ -21,6 +21,8 @@ export interface Student
 })
 export class GraphService {
 
+    values : any = [];
+
   constructor(private http: HttpClient) {
     console.log('in the Graph Service');
    }

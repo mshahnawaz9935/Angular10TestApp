@@ -12,7 +12,7 @@ import { GraphService} from '../graph.service';
 })
 export class UsersComponent implements OnInit {
 
-  values:any =[];
+  values:any = [];
   constructor(private http: HttpClient,public dialog: MatDialog, public graphService : GraphService) {
    
   }
@@ -36,11 +36,17 @@ export class UsersComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.graphService.getStudentsData().subscribe(
-      data => {console.log(data);
-        this.values = data;
-      }
-    );
+    // this.graphService.getStudentsData().subscribe(
+    //   data => {console.log(data);
+    //     this.graphService.values = [{ name: 'aaa', phone: '651321', id: 1, address: 'mount' , email : 'sdsadsa@gmail.com' },
+    //     { name: 'dsfsdf', phone: '651321', id: 2, address: 'mount' , email : 'fds@gmail.com' },
+    //     { name: 'fsdfds', phone: '651321', id: 3, address: 'mount' , email : 'vxc@gmail.com' }]
+    //   }
+    // );
+    this.graphService.values = [
+      { name: 'aaa', phone: '651321', id: 1, address: 'mount' , email : 'sdsadsa@gmail.com' },
+    { name: 'dsfsdf', phone: '651321', id: 2, address: 'mount' , email : 'fds@gmail.com' },
+    { name: 'fsdfds', phone: '651321', id: 3, address: 'mount' , email : 'vxc@gmail.com' }]
   }
 
   getConfig() {

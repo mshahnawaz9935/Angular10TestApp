@@ -25,6 +25,7 @@ export class Student {
   templateUrl: './add.component.html',
   styleUrls: ['./add.component.css']
 })
+
 export class AddComponent implements OnInit {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData ,private http: HttpClient ,private graphService : GraphService , private dialogRef: MatDialogRef<AddComponent> ) { }
@@ -36,7 +37,8 @@ export class AddComponent implements OnInit {
 
   onSubmit(form: NgForm) {
     console.log('Your form data : ', form.value);
-    this.graphService.addStudent(form.value).subscribe(data => this.dialogRef.close(form.value));
+    this.graphService.values.push(form.value);
+  //  this.graphService.addStudent(form.value).subscribe(data => this.dialogRef.close(form.value));
   }
 
 }

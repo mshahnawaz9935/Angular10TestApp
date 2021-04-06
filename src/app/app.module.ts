@@ -13,7 +13,7 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { DxDataGridModule } from 'devextreme-angular';
 import { DxListModule } from 'devextreme-angular';
-import {MatDialogModule} from '@angular/material/dialog';
+import { MatDialogModule } from '@angular/material/dialog';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
 import { FormsModule } from '@angular/forms';
