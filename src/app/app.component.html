@@ -1,16 +1,22 @@
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>Auto-resizing sidenav</p>
+    <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+    <button (click)="showFiller = !showFiller" mat-raised-button>
+      Toggle extra text
+    </button>
+  </mat-drawer>
 
-<mat-toolbar color="primary">
-  <span>My App</span>
-  <span style="margin-left:30px"><a href="#">Home</a></span>
-  <span><a href="/users">Services</a></span>
-  <span>About</span>
-  <span ><a href="/dashboard">Dashboard</a></span>
-  <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon">
-    <mat-icon>favorite</mat-icon>
-  </button>
-  <button mat-icon-button class="example-icon">
-    <mat-icon>share</mat-icon>
-  </button>
-</mat-toolbar>
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+      
+  <span style="margin-left:30px"><a href="#">Angular Task</a></span>
+  <span ><a href="/contacts">Contacts</a></span>
+  
 <router-outlet ></router-outlet>
+  </div>
+
+
+</mat-drawer-container>

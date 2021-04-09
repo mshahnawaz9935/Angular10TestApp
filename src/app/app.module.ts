@@ -19,6 +19,8 @@ import { EditComponent } from './edit/edit.component';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ChartModule } from 'angular-highcharts';
+import { ContactsComponent } from './contacts/contacts.component';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { ChartModule } from 'angular-highcharts';
     HomeComponent,
     AddComponent,
     EditComponent,
-    DashboardComponent
+    DashboardComponent,
+    ContactsComponent
   ],
   imports: [
     ChartModule,
@@ -35,6 +38,7 @@ import { ChartModule } from 'angular-highcharts';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MatSidenavModule,
     FormsModule,
     MatToolbarModule,
     MatIconModule,
@@ -47,6 +51,8 @@ import { ChartModule } from 'angular-highcharts';
       { path: 'users', component: UsersComponent },
       { path: '', component: HomeComponent },
       { path: 'dashboard', component: DashboardComponent },
+      { path: 'contacts', component: ContactsComponent }
+
     ])
   ],
   providers: [],

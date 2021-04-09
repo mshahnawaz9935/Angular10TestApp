@@ -12,10 +12,10 @@ export class Student {
 
   constructor(
     public id: number,
-    public name: string,
-    public email: string,
-    public phone: string,
-    public address?: string
+    public add1: string,
+    public add2: string,
+    public town: string,
+    public country: string
   ) {  }
 
 }
@@ -30,7 +30,7 @@ export class AddComponent implements OnInit {
 
   constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData ,private http: HttpClient ,private graphService : GraphService , private dialogRef: MatDialogRef<AddComponent> ) { }
 
-  model = new Student(0,'','xyz@gmail.com' ,'' );
+  model = new Student(0,'','' ,'','');
 
   ngOnInit(): void {
   }
