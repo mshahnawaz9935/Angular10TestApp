@@ -1,20 +1,32 @@
 <div class="container">
-  
-        <div class="row" style="padding-top:5%" >
-            <div class="col-4" >
-              <div class="card" style="width: 18rem;">
-              
+        <div class="row" style="padding-top:3%" >
+            <div class="col-8" >
+              <div class="card" >
                 <div class="card-body">
-                  <p *ngFor="let item of graphService.values; let i = index" class="card-text">
-                    
-                    <img src="{{item.avatar}}" height="20" width="20"/>
-                    {{item.first_name}} {{item.last_name}}
-                   
-                  </p>
-                  
-                  <button  type="button" class="btn btn-primary" (click)="openDialog('add')">Add</button><br/>
-                  <button type="button" class="btn btn-secondary" (click)="openDialog('edit')">Edit</button><br/>
-                  <button type="button" class="btn btn-success">Delete</button>
+               
+                    <h5>You have {{dataService.contacts.length}} Contacts</h5>
+            
+                    <div style="cursor:pointer;"  class="row" style="height:40px;padding-top:3%" *ngFor="let item of dataService.contacts; let i = index">
+                      <div style="cursor:pointer;" class="col-1" (click)="openDialog(item)">
+                        <img src="{{item.avatar}}" height="20" width="20"/> 
+                      </div>
+                      <div style="cursor:pointer;" class="col-4" (click)="openDialog(item)">
+                        {{item.first_name}} {{item.last_name}}
+                      </div>
+                      <div style="cursor:pointer;" class="col-6" (click)= "deleteContact(item.id)">
+                        <i class="fa fa-trash"  aria-hidden="true"></i>
+                      </div>
+                    </div>
+                
+                  <br />
+                  <br />
+                  <mat-form-field class="example-full-width">
+                    <mat-label>Add New Contact</mat-label>
+                    <input matInput placeholder="Enter Details" [(ngModel)]="model.fullname">
+                  </mat-form-field>&nbsp;&nbsp;
+                  <button (click)="addContact()"  mat-mini-fab color="primary" >
+                    <mat-icon>plus_one</mat-icon>
+                  </button>
                 </div>
               </div>
             </div>

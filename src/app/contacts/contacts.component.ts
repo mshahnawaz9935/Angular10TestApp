@@ -2,8 +2,17 @@ import { Component, OnInit } from '@angular/core';
 import {  HttpClient  } from '@angular/common/http';
 import {MatDialog} from '@angular/material/dialog';
 import { AddComponent } from '../add/add.component';
-import { EditComponent } from '../edit/edit.component';
-import { GraphService} from '../graph.service';
+import { DataService} from '../data.service';
+
+export class Contact {
+
+  constructor(
+    public fullname: string,
+    public firs_tname: string,
+    public last_name: string,
+  ) {  }
+
+}
 
 @Component({
   selector: 'app-contacts',
@@ -13,19 +22,20 @@ import { GraphService} from '../graph.service';
 
 export class ContactsComponent implements OnInit {
   values:any = [];
-  constructor(private http: HttpClient,public dialog: MatDialog, public graphService : GraphService)
+
+  model = new Contact('','','');
+  constructor(private http: HttpClient,public dialog: MatDialog, public dataService : DataService)
   {
 
    }
-  openDialog(type:any) {
+  openDialog( item:any) {
 
     var modalType;
 
-    if(type === 'add')
     modalType = AddComponent;
-    else modalType = EditComponent;
 
     const dialogRefBox = this.dialog.open(modalType, {
+      data: item,
       height: '500px',
       width: '600px',
     });
@@ -36,16 +46,44 @@ export class ContactsComponent implements OnInit {
   }
   ngOnInit(): void {
    
-        this.getConfig().subscribe(
-      data => {console.log(data);
-        this.graphService.values = data;
-      }
-    );
+        this.getContacts();
 
   }
-  getConfig() {
+  deleteContact(id:number)
+  {
+    console.log(id);
+    this.dataService.deleteContact(id)
+    .subscribe(
+      data => { 
+        this.getContacts();}
+    );
+  }
+  addContact()
+  {
+    console.log(this.model);  
+    var fullname = this.model.fullname;
+    var names = this.model.fullname.split(' ');
+    var data = {
+      first_name :  names[0],
+      last_name : names[1],
+      avatar : ''
 
-    return this.http.get('http://localhost:3000/contacts',{responseType: 'json'});
+    };
+    console.log(data , names);
+    this.dataService.addContact(data).subscribe(data => {
+      this.dataService.contacts.push(data);
+      this.model = new Contact('','','');
+    })
+
+  }
+
+  getContacts() {
+
+    this.dataService.getContacts().subscribe(
+      data => {
+        this.dataService.contacts = data;
+      }
+    );
    }
 
 }

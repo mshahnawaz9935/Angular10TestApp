@@ -7,51 +7,38 @@ import { AppRoutingModule } from './app-routing.module';
 import {  RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { UsersComponent } from './users/users.component';
 import {MatCardModule} from '@angular/material/card';
-import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
-import { DxDataGridModule } from 'devextreme-angular';
-import { DxListModule } from 'devextreme-angular';
 import { MatDialogModule } from '@angular/material/dialog';
 import { AddComponent } from './add/add.component';
-import { EditComponent } from './edit/edit.component';
 import { FormsModule } from '@angular/forms';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ChartModule } from 'angular-highcharts';
 import { ContactsComponent } from './contacts/contacts.component';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsersComponent,
-    HomeComponent,
     AddComponent,
-    EditComponent,
-    DashboardComponent,
     ContactsComponent
   ],
   imports: [
-    ChartModule,
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
     FormsModule,
+    MatInputModule,
     MatToolbarModule,
     MatIconModule,
-    DxDataGridModule,
+    MatListModule,
     MatCardModule,
     MatButtonModule,
-    DxListModule,
     MatDialogModule,
     RouterModule.forRoot([
-      { path: 'users', component: UsersComponent },
-      { path: '', component: HomeComponent },
-      { path: 'dashboard', component: DashboardComponent },
-      { path: 'contacts', component: ContactsComponent }
+      { path: '', component: ContactsComponent }
 
     ])
   ],
