@@ -21,11 +21,28 @@ export interface Student
 })
 export class GraphService {
 
-    values : any = [];
+    animals : any = [];
 
   constructor(private http: HttpClient) {
     console.log('in the Graph Service');
    }
+
+   getAnimals() {
+
+    return  this.http.get('http://localhost:3000/animals',{responseType: 'json'});
+   
+   }
+
+   addAnimals(data:any) {
+
+    return this.http.post('http://localhost:3000/animals', data,{responseType: 'json'});
+   }
+
+   updateAnimals(id:number , data:any) {
+
+    return this.http.put('http://localhost:3000/animals/' + id, data,{responseType: 'json'});
+   }
+
 
    getFileData()
    {

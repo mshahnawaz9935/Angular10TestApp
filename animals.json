@@ -1,0 +1,333 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "cow_id": 8,
+      "dim": 134,
+      "rf_id": 77918,
+      "last_calved": "2020-11-10T10:39:00",
+      "dob": "2020-09-24T12:17:59",
+      "national_id": "IE952",
+      "last_heat": "2021-02-08T12:34:00"
+    },
+    {
+      "dob": "1982-03-22T00:00:00",
+      "dim": 143,
+      "cow_id": 9,
+      "rf_id": 77919,
+      "national_id": "IE898",
+      "last_heat": null,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "cow_id": 10,
+      "dim": 174,
+      "rf_id": 77921,
+      "last_calved": "2020-10-01T11:53:00",
+      "dob": "2020-08-03T23:44:25",
+      "national_id": "IE53",
+      "last_heat": "2020-10-28T17:42:00"
+    },
+    {
+      "dob": "2020-09-24T11:17:59",
+      "dim": 143,
+      "cow_id": 11,
+      "rf_id": 77924,
+      "national_id": "IE936",
+      "last_heat": null,
+      "id": 4
+    },
+    {
+      "dob": "2020-10-21T13:37:25",
+      "dim": 154,
+      "cow_id": 13,
+      "rf_id": 77925,
+      "national_id": "IE637",
+      "last_heat": "2020-10-27T15:35:00",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "cow_id": 14,
+      "dim": 197,
+      "rf_id": 77933,
+      "last_calved": "2020-09-08T11:57:00",
+      "dob": "2020-10-21T14:38:05",
+      "national_id": "IE803",
+      "last_heat": "2020-10-15T14:35:00"
+    },
+    {
+      "id": 7,
+      "cow_id": 15,
+      "dim": null,
+      "rf_id": 77939,
+      "last_calved": null,
+      "dob": "2020-10-21T14:44:30",
+      "national_id": "IE122",
+      "last_heat": null
+    },
+    {
+      "id": 8,
+      "cow_id": 17,
+      "dim": null,
+      "rf_id": 77946,
+      "last_calved": null,
+      "dob": "2020-09-07T14:31:59",
+      "national_id": "IE197",
+      "last_heat": null
+    },
+    {
+      "id": 9,
+      "cow_id": 18,
+      "dim": null,
+      "rf_id": 77954,
+      "last_calved": null,
+      "dob": "2020-09-21T12:24:38",
+      "national_id": "IE782",
+      "last_heat": null
+    },
+    {
+      "id": 10,
+      "cow_id": 19,
+      "dim": null,
+      "rf_id": 77963,
+      "last_calved": null,
+      "dob": "2020-09-21T13:28:13",
+      "national_id": "IE187",
+      "last_heat": "2020-10-28T15:40:00"
+    },
+    {
+      "id": 11,
+      "cow_id": 20,
+      "dim": null,
+      "rf_id": null,
+      "last_calved": null,
+      "dob": "2020-09-21T13:28:31",
+      "national_id": "IE487",
+      "last_heat": null
+    },
+    {
+      "id": 12,
+      "cow_id": 21,
+      "dim": null,
+      "rf_id": 21,
+      "last_calved": null,
+      "dob": "2019-08-21T09:34:20",
+      "national_id": "IE655",
+      "last_heat": null
+    },
+    {
+      "id": 13,
+      "cow_id": 22,
+      "dim": null,
+      "rf_id": null,
+      "last_calved": null,
+      "dob": "2020-09-25T15:13:22",
+      "national_id": "IE385",
+      "last_heat": null
+    },
+    {
+      "id": 14,
+      "cow_id": 23,
+      "dim": null,
+      "rf_id": null,
+      "last_calved": null,
+      "dob": "2001-05-09T23:00:00",
+      "national_id": "IE200",
+      "last_heat": null
+    },
+    {
+      "id": 15,
+      "cow_id": 32,
+      "dim": 173,
+      "rf_id": 77920,
+      "last_calved": "2020-10-02T09:21:00",
+      "dob": "2020-09-17T14:01:54",
+      "national_id": "IE234",
+      "last_heat": "2021-01-16T09:44:35"
+    },
+    {
+      "id": 16,
+      "cow_id": 33,
+      "dim": 197,
+      "rf_id": 0,
+      "last_calved": "2020-09-08T15:35:00",
+      "dob": "1982-03-22T00:00:00",
+      "national_id": "IE703",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 17,
+      "cow_id": 36,
+      "dim": 260,
+      "rf_id": 154,
+      "last_calved": "2020-07-07T09:07:00",
+      "dob": null,
+      "national_id": "IE595",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 18,
+      "cow_id": 38,
+      "dim": 260,
+      "rf_id": 8238,
+      "last_calved": "2020-07-07T09:07:00",
+      "dob": null,
+      "national_id": "IE94",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 19,
+      "cow_id": 50,
+      "dim": 183,
+      "rf_id": 0,
+      "last_calved": "2020-09-22T09:48:00",
+      "dob": null,
+      "national_id": "IE918",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 20,
+      "cow_id": 56,
+      "dim": 182,
+      "rf_id": 35256,
+      "last_calved": "2020-09-23T15:39:00",
+      "dob": "2020-07-07T22:00:00",
+      "national_id": "IE31",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 21,
+      "cow_id": 63,
+      "dim": null,
+      "rf_id": 8263,
+      "last_calved": null,
+      "dob": "1970-01-07T22:00:00",
+      "national_id": "IE920",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 22,
+      "cow_id": 64,
+      "dim": 142,
+      "rf_id": 0,
+      "last_calved": "2020-11-02T15:21:00",
+      "dob": null,
+      "national_id": "IE318",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 23,
+      "cow_id": 65,
+      "dim": 139,
+      "rf_id": 0,
+      "last_calved": "2020-11-05T16:19:00",
+      "dob": null,
+      "national_id": "IE30",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 24,
+      "cow_id": 66,
+      "dim": null,
+      "rf_id": 2812,
+      "last_calved": null,
+      "dob": "2020-09-13T00:00:00",
+      "national_id": "IE299",
+      "last_heat": "2021-01-21T09:34:00"
+    },
+    {
+      "id": 25,
+      "cow_id": 81,
+      "dim": 142,
+      "rf_id": 24881,
+      "last_calved": "2020-11-02T16:21:00",
+      "dob": null,
+      "national_id": "IE244",
+      "last_heat": null
+    },
+    {
+      "id": 26,
+      "cow_id": 123,
+      "dim": null,
+      "rf_id": null,
+      "last_calved": null,
+      "dob": "2020-09-21T13:12:00",
+      "national_id": "IE119",
+      "last_heat": null
+    },
+    {
+      "id": 27,
+      "cow_id": 219,
+      "dim": 170,
+      "rf_id": 0,
+      "last_calved": "2020-10-05T15:21:00",
+      "dob": null,
+      "national_id": "IE235",
+      "last_heat": null
+    },
+    {
+      "id": 28,
+      "cow_id": 225,
+      "dim": 143,
+      "rf_id": 0,
+      "last_calved": "2020-11-01T15:23:00",
+      "dob": null,
+      "national_id": "IE127",
+      "last_heat": null
+    },
+    {
+      "id": 29,
+      "cow_id": 232,
+      "dim": 143,
+      "rf_id": 0,
+      "last_calved": "2020-11-01T16:26:00",
+      "dob": null,
+      "national_id": "IE128",
+      "last_heat": null
+    },
+    {
+      "id": 30,
+      "cow_id": 235,
+      "dim": 153,
+      "rf_id": 0,
+      "last_calved": "2020-10-22T15:27:00",
+      "dob": null,
+      "national_id": "IE564",
+      "last_heat": null
+    },
+    {
+      "dob": "2020-05-03",
+      "dim": 200,
+      "cow_id": 233,
+      "rf_id": 954,
+      "national_id": "IE256",
+      "last_heat": "2020-05-08",
+      "id": 67
+    },
+    {
+      "dob": "2020-05-12",
+      "dim": 412,
+      "cow_id": 7,
+      "national_id": "IE241",
+      "id": 68
+    },
+    {
+      "dob": "2020-05-12",
+      "dim": 652,
+      "cow_id": 6,
+      "rf_id": 6458,
+      "national_id": "IE2568",
+      "last_heat": "2021-05-12",
+      "id": 69
+    },
+    {
+      "dob": "2020-05-12",
+      "dim": 6,
+      "cow_id": 2,
+      "rf_id": 41,
+      "id": 70
+    }
+  ]
+}

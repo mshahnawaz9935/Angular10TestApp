@@ -43,10 +43,7 @@ export class UsersComponent implements OnInit {
     //     { name: 'fsdfds', phone: '651321', id: 3, address: 'mount' , email : 'vxc@gmail.com' }]
     //   }
     // );
-    this.graphService.values = [
-      { name: 'aaa', phone: '651321', id: 1, address: 'mount' , email : 'sdsadsa@gmail.com' },
-    { name: 'dsfsdf', phone: '651321', id: 2, address: 'mount' , email : 'fds@gmail.com' },
-    { name: 'fsdfds', phone: '651321', id: 3, address: 'mount' , email : 'vxc@gmail.com' }]
+
   }
 
   getConfig() {
